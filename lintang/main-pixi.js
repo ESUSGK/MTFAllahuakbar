@@ -2823,7 +2823,7 @@ function InitMusic()
     if(Music === undefined){
         Howler.usingWebAudio = true;
         // BGM 列表，随机抽取
-        let bgmList = ['xleeC-Crystal(NM$L Remix).mp3'];
+        let bgmList = ['xleeC-Crystal(NM$L%20Remix).mp3'];
         let bgm = bgmList[Math.floor(Math.random() * bgmList.length)];
         console.log(`BGM: ${bgm}`);
         Music = new Howl({
