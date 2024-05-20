@@ -2579,7 +2579,7 @@ app.stage.addChild(textBigL); app.stage.addChild(textBigR); app.stage.addChild(t
 textBigL.anchor.set(0.5); textBigR.anchor.set(0.5); textTop.anchor.set(0.5);
 textBigL.style = bigTextStyle; textBigR.style = bigTextStyle; textTop.style = topTextStyle;
 textBigL.position.set(85,245); textBigR.position.set(975,245); textTop.position.set(530,29);
-textBigL.text = "化\n屑\n仙\n逝"; textBigR.text = "功\n在\n杭\n州"; textTop.text = "古千毅汪";
+textBigL.text = "化\n屑\n仙\n逝"; textBigR.text = "功\n在\n泉\n州"; textTop.text = "古千智世";
 
 var pooArr = new Array(), pooArrTmp = new Array();
 function PooParticle(x, y){
@@ -2591,7 +2591,7 @@ function PooParticle(x, y){
         'fontFamily' : 'Microsoft Yahei',
         'fontSize' : 30,
     });
-    this.poo.text = "💩";
+    this.poo.text = "🍾";
     this.poo.anchor.set(0.5);
     this.poo.position.set(this.x0,this.y0);
     app.stage.addChild(this.poo);
