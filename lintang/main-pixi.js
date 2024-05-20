@@ -1,6 +1,6 @@
 var app = new PIXI.Application(1060, 760, {forceFXAA: true,antialias:true,backgroundColor: colorHex(255,250,240)});//0x1099bb
 PIXI.settings.ROUND_PIXELS = true; PIXI.settings.RESOLUTION = 1;
-app.view.innerHTML = "蒋汪毅到处背刺，你也不至于用如此旧的浏览器吧？";
+app.view.innerHTML = "沈世智到处背刺，你也不至于用如此旧的浏览器吧？";
 app.view.style = "position: fixed;left:0px; top:0px;cursor:default;"
 document.body.appendChild(app.view);
 if ("onmousewheel" in document) {
